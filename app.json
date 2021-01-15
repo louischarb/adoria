@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "adoria",
-    "slug": "adoria",
+    "name": "Adoria",
+    "slug": "Adoria",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,13 +17,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.louischarbonier.adoria",
+      "buildNumber": "1.0.0"
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+      "package": "com.louischarbonier.adoria",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
